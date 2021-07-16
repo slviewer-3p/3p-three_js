@@ -1,0 +1,4 @@
+public_build = true
+
+buildscripts_shared_more_NAMEs="build_variables"
+build_variables_repostory_url = "https://bitbucket.org/lindenlab/build-variables"
