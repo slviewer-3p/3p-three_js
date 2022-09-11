@@ -4,15 +4,15 @@
     <key>package_description</key>
     <map>
       <key>canonical_repo</key>
-      <string>https://bitbucket.org/nickyd/3p-three_js</string>
+      <string>https://github.com/slviewer-3p/3p-three_js</string>
+      <key>copyright</key>
+      <string>Copyright © 2010-2021 three.js authors</string>
       <key>license</key>
       <string>MIT</string>
       <key>license_file</key>
       <string>LICENSES/THREEJS_LICENSE.txt</string>
       <key>name</key>
       <string>threejs</string>
-      <key>copyright</key>
-      <string>Copyright © 2010-2021 three.js authors</string>
       <key>platforms</key>
       <map>
         <key>common</key>
@@ -41,7 +41,7 @@
           <key>name</key>
           <string>common</string>
         </map>
-        <key>windows</key>
+        <key>darwin64</key>
         <map>
           <key>build_directory</key>
           <string>stage</string>
@@ -60,7 +60,7 @@
             <string>js/*.js</string>
           </array>
           <key>name</key>
-          <string>windows</string>
+          <string>darwin64</string>
         </map>
         <key>linux64</key>
         <map>
@@ -83,7 +83,7 @@
           <key>name</key>
           <string>windows</string>
         </map>
-        <key>darwin64</key>
+        <key>windows</key>
         <map>
           <key>build_directory</key>
           <string>stage</string>
@@ -102,7 +102,7 @@
             <string>js/*.js</string>
           </array>
           <key>name</key>
-          <string>darwin64</string>
+          <string>windows</string>
         </map>
       </map>
       <key>version_file</key>
